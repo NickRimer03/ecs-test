@@ -4,7 +4,8 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "dev": "webpack serve --mode=development --config ./webpack.config.js"
+    "dev": "webpack serve --mode=development --config ./webpack.config.js",
+    "prettify": "prettier --write '**/*.{js,json,html,scss}'"
   },
   "private": true,
   "type": "module",
